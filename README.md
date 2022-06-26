@@ -1,4 +1,5 @@
 # Research Project Q4 2021-2022
+### Cato de Kruif, s2244217
 
 ## Generating δ-NFGs
 Using the Python scripts in `./deltaNFG`, one can easily compute their δ-NFGs.
