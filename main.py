@@ -1,6 +1,6 @@
 from deadCode.dead_code_elimination import elimination
 from deltaNFG.generate_deltaNFG import NFG
-from deadCode.dead_code_detection import get_all_graphs, get_graph, revived_code
+from deadCode.dead_code_detection import get_graph, revived_code
 from testing.all_tests import run_tests
 
 run_tests()  # Tests the implementation with the Example repository
