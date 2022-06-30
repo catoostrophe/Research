@@ -24,4 +24,4 @@ elimination("Example", dead_variables)  # Eliminate dead variables
 ```
 
 ## Getting started
-In the `main.py` file, one can find a ready-to-run script.
+First, clone https://github.com/catoostrophe/Example in `./subjects` and then one can run the `main.py` file.

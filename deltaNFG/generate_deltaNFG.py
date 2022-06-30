@@ -68,7 +68,8 @@ def NFG(repository_name):
             list_to_tangle = jsonpickle.decode(f.read())
     except FileNotFoundError:
         list_to_tangle = get_commits('./subjects/%s' % repository_name, './temp')
-        with open("./data/history/{}/commits.json".format(repository_name, repository_name), 'w') as f:
+        os.mkdir("./data/history/{}".format(repository_name))
+        with open("./data/history/{}/commits.json".format(repository_name), 'w') as f:
             f.write(json.dumps(list_to_tangle))
 
     chunck_size = int(len(list_to_tangle) / n_workers)
